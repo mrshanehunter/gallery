@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.close {
+  margin-bottom: 10px;
+}
+
+.card-body.vowel {
+  background-color: orange;
+  border: 3px solid orangered;
+  border-radius: 10px;
+}
+
+.card-body.vowel-m {
+  background-color: orangered;
+  border: 3px solid orange;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.card-body.consonant {
+  background-color: lightskyblue;
+  border: 3px solid darkblue;
+  border-radius: 10px;
+}
+
+.card-body.consonant-m {
+  background-color: lightblue;
+  border: 3px solid lightskyblue;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
